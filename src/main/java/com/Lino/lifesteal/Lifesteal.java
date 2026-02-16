@@ -29,6 +29,11 @@ public class Lifesteal extends JavaPlugin {
         getCommand("lifesteal").setExecutor(commandExecutor);
         getCommand("lifesteal").setTabCompleter(new LifestealTabCompleter(this));
 
+        if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
+            new LifestealExpansion(this).register();
+            Bukkit.getConsoleSender().sendMessage(messageManager.getMessage("papi-hooked"));
+        }
+
         Bukkit.getConsoleSender().sendMessage(messageManager.getMessage("plugin-enabled"));
     }
 

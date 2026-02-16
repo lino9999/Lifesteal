@@ -40,6 +40,7 @@ usage-revive: "<gradient:#ff6347:#ff1493>Usage:</gradient> <gradient:#00fa9a:#20
 plugin-enabled: "<gradient:#00ff00:#7fff00>Lifesteal</gradient> <gradient:#40e0d0:#00fa9a>enabled!</gradient>"
 plugin-disabled: "<gradient:#ff4500:#dc143c>Lifesteal</gradient> <gradient:#ff6347:#ff0000>disabled!</gradient>"
 plugin-reloaded: "<gradient:#7fff00:#00ff00>Lifesteal</gradient> <gradient:#00fa9a:#40e0d0>reloaded!</gradient>"
+papi-hooked: "<gradient:#00ff00:#7fff00>Lifesteal</gradient> <gradient:#ffd700:#ffa500>hooked into PlaceholderAPI!</gradient>"
 
 doomsday-sword-name: "<gradient:#8b0000:#ff0000>⚔ Blade of Eternal Damnation ⚔</gradient>"
 doomsday-sword-lore1: "<gradient:#4b0082:#8b008b>Forged in the depths of the void</gradient>"
